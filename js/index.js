@@ -27,10 +27,13 @@ document.addEventListener('keydown', (event) => {
   */
 
 const audio_ez4ence = document.querySelector("#audio_ez4ence");
-const archivo_de_audio_ez4ence =document.querySelector("#archivo_de_audio_en4ence")
+const archivo_de_audio_ez4ence =document.querySelector("#archivo_de_audio_en4ence");
 
 const audio_podes_ser_tan_pelotudo= document.querySelector("#audio_podes_ser_tan_pelotuo");
 const archivo_de_audio_podes_ser_tan_pelotudo =document.querySelector("#archivo_de_audio_podes_ser_tan_pelotudo")
+
+const audio_siuu_cristiano= document.querySelector("#siu_cristiano");
+const archivo_siu_cristiano =document.querySelector("#archivo_de_audio_siu_critiano")
 
 audio_ez4ence.addEventListener("click", () =>{
 
@@ -42,3 +45,7 @@ audio_podes_ser_tan_pelotudo.addEventListener("click", () =>{
     archivo_de_audio_podes_ser_tan_pelotudo.play()
  })
  
+ audio_siuu_cristiano.addEventListener("click", () =>{
+
+   archivo_siu_cristiano.play()
+ })
