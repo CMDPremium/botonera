@@ -35,6 +35,9 @@ const archivo_de_audio_podes_ser_tan_pelotudo =document.querySelector("#archivo_
 const audio_siuu_cristiano= document.querySelector("#siu_cristiano");
 const archivo_siu_cristiano =document.querySelector("#archivo_de_audio_siu_critiano")
 
+const audio_stax = document.querySelector("#audio_stax");
+const archivo_de_audio_stax =document.querySelector("#archivo_de_audio_stax");
+
 audio_ez4ence.addEventListener("click", () =>{
 
    archivo_de_audio_ez4ence.play();
@@ -49,3 +52,8 @@ audio_podes_ser_tan_pelotudo.addEventListener("click", () =>{
 
    archivo_siu_cristiano.play()
  })
+
+ audio_stax.addEventListener("click", () =>{
+
+  archivo_de_audio_stax.play();
+})
