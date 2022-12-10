@@ -27,10 +27,19 @@ document.addEventListener('keydown', (event) => {
   */
 
 const audio_ez4ence = document.querySelector("#audio_ez4ence");
-const archivo_de_audio_ez4ence =document.querySelector("#archivo_de_audio_en4ence")
+const archivo_de_audio_ez4ence =document.querySelector("#archivo_de_audio_en4ence");
 
 const audio_podes_ser_tan_pelotudo= document.querySelector("#audio_podes_ser_tan_pelotuo");
 const archivo_de_audio_podes_ser_tan_pelotudo =document.querySelector("#archivo_de_audio_podes_ser_tan_pelotudo")
+
+const audio_siuu_cristiano= document.querySelector("#siu_cristiano");
+const archivo_siu_cristiano =document.querySelector("#archivo_de_audio_siu_critiano")
+
+const audio_stax = document.querySelector("#audio_stax");
+const archivo_de_audio_stax =document.querySelector("#archivo_de_audio_stax");
+
+const audio_BrazilEliminado = document.querySelector("#audio_BrazilEliminado");
+const archivo_de_audio_BrazilElmininado =document.querySelector("#archivo_de_audio_BrazilEliminado");
 
 audio_ez4ence.addEventListener("click", () =>{
 
@@ -42,3 +51,17 @@ audio_podes_ser_tan_pelotudo.addEventListener("click", () =>{
     archivo_de_audio_podes_ser_tan_pelotudo.play()
  })
  
+ audio_siuu_cristiano.addEventListener("click", () =>{
+
+   archivo_siu_cristiano.play()
+ })
+
+ audio_stax.addEventListener("click", () =>{
+
+  archivo_de_audio_stax.play();
+})
+
+audio_BrazilEliminado.addEventListener("click", () =>{
+
+  archivo_de_audio_BrazilElmininado.play();
+})
